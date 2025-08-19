@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "93e6aa6b-ae50-4940-8c37-e1069f3e7763",
+		"name": "AuthService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10786212"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"Sola\",\r\n  \"lastName\": \"Fatai\",\r\n  \"email\": \"fataiazeez1230@gmail.com\",\r\n  \"password\": \"Fatai@012\",\r\n  \"address\": \"ogoluwa street\",\r\n  \"phoneNumber\": \"08141286000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7124/api/Auth/register",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7124",
+					"path": [
+						"api",
+						"Auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"email\": \"fataiazeez1230@gmail.com\",\r\n   \"password\": \"Fatai@012\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7124/api/Auth/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7124",
+					"path": [
+						"api",
+						"Auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
