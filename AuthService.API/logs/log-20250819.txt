@@ -1,0 +1,132 @@
+2025-08-19 07:07:24.167 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 07:07:28.829 +01:00 [INF] HTTP GET / responded 404 in 4667.7423 ms
+2025-08-19 07:07:34.785 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 30.5469 ms
+2025-08-19 07:08:31.408 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 07:08:44.176 +01:00 [INF] login request initiated
+2025-08-19 07:08:45.323 +01:00 [INF] login request AuthService.Application.DTOs.Requests.LoginRequestDto
+2025-08-19 07:08:47.026 +01:00 [INF] getting of single data query initiated _ => (_.Email == value(AuthService.Application.Services.AuthServices+<>c__DisplayClass5_0).userRequest.Email)
+2025-08-19 07:08:51.330 +01:00 [INF] getting of single data query response AuthService.Domain.Entities.User
+2025-08-19 07:09:38.325 +01:00 [INF] login error The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+2025-08-19 07:09:38.443 +01:00 [INF] HTTP POST /api/Auth/login responded 400 in 67043.3028 ms
+2025-08-19 07:12:14.230 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 07:12:29.873 +01:00 [INF] HTTP GET / responded 404 in 15642.5414 ms
+2025-08-19 07:12:35.190 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 18.1707 ms
+2025-08-19 07:14:57.858 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 07:15:11.546 +01:00 [INF] Registration request AuthService.Application.DTOs.Requests.RegisterDto
+2025-08-19 07:15:15.594 +01:00 [INF] getting of single data query initiated _ => _.Email.Equals(value(AuthService.Application.Services.AuthServices+<>c__DisplayClass4_0).register.Email)
+2025-08-19 07:15:18.466 +01:00 [INF] getting of single data query response 
+2025-08-19 07:15:30.883 +01:00 [INF] registration response AuthService.Application.DTOs.Responses.Response
+2025-08-19 07:15:33.048 +01:00 [INF] HTTP POST /api/Auth/register responded 200 in 35195.6738 ms
+2025-08-19 07:15:56.777 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 07:16:08.310 +01:00 [INF] login request initiated
+2025-08-19 07:16:08.766 +01:00 [INF] login request AuthService.Application.DTOs.Requests.LoginRequestDto
+2025-08-19 07:16:09.848 +01:00 [INF] getting of single data query initiated _ => (_.Email == value(AuthService.Application.Services.AuthServices+<>c__DisplayClass5_0).userRequest.Email)
+2025-08-19 07:16:11.906 +01:00 [INF] getting of single data query response AuthService.Domain.Entities.User
+2025-08-19 07:32:59.213 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 07:33:01.372 +01:00 [INF] HTTP GET / responded 404 in 2163.5636 ms
+2025-08-19 07:33:08.621 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 29.1279 ms
+2025-08-19 07:34:17.382 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 07:36:08.071 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 07:36:10.257 +01:00 [INF] HTTP GET / responded 404 in 2189.0577 ms
+2025-08-19 07:36:16.661 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 30.6055 ms
+2025-08-19 07:37:31.294 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 07:48:25.489 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 07:48:29.624 +01:00 [INF] HTTP GET / responded 404 in 4139.1669 ms
+2025-08-19 07:48:34.593 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 23.7385 ms
+2025-08-19 07:48:56.902 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 07:49:09.661 +01:00 [INF] validate register params
+2025-08-19 07:49:39.207 +01:00 [INF] Registration request AuthService.Application.DTOs.Requests.RegisterDto
+2025-08-19 07:49:40.160 +01:00 [INF] getting of single data query initiated _ => _.Email.Equals(value(AuthService.Application.Services.AuthServices+<>c__DisplayClass3_0).register.Email)
+2025-08-19 07:49:41.085 +01:00 [INF] getting of single data query response 
+2025-08-19 07:49:41.283 +01:00 [INF] registration response AuthService.Application.DTOs.Responses.Response
+2025-08-19 07:49:41.298 +01:00 [INF] HTTP POST /api/Auth/register responded 200 in 44403.0538 ms
+2025-08-19 07:49:59.434 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 07:50:07.462 +01:00 [INF] validate login params
+2025-08-19 07:50:11.944 +01:00 [INF] login request initiated
+2025-08-19 07:50:13.922 +01:00 [INF] login request AuthService.Application.DTOs.Requests.LoginRequestDto
+2025-08-19 07:50:15.547 +01:00 [INF] getting of single data query initiated _ => (_.Email == value(AuthService.Application.Services.AuthServices+<>c__DisplayClass4_0).userRequest.Email)
+2025-08-19 07:50:15.615 +01:00 [INF] getting of single data query response AuthService.Domain.Entities.User
+2025-08-19 07:51:01.305 +01:00 [INF] login response AuthService.Application.DTOs.Responses.Response`1[AuthService.Application.DTOs.Responses.UserResponseDto]
+2025-08-19 07:51:01.321 +01:00 [INF] HTTP POST /api/Auth/login responded 200 in 61891.1853 ms
+2025-08-19 07:59:26.276 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 07:59:37.617 +01:00 [INF] HTTP GET / responded 404 in 11350.4381 ms
+2025-08-19 07:59:38.227 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 15.5509 ms
+2025-08-19 08:15:50.177 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 08:15:50.255 +01:00 [INF] HTTP GET / responded 404 in 86.0152 ms
+2025-08-19 08:16:28.612 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 08:16:28.674 +01:00 [INF] HTTP GET / responded 404 in 69.3592 ms
+2025-08-19 08:16:33.311 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 36.9717 ms
+2025-08-19 08:16:42.033 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 08:16:47.538 +01:00 [INF] validate register params
+2025-08-19 08:16:47.684 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: If an IAsyncActionFilter provides a result value by setting the Result property of ActionExecutingContext to a non-null value, then it cannot call the next filter by invoking ActionExecutionDelegate.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAwaitedAsync>g__Throw|11_1()
+   at AuthService.WebApi.Filters.RegisterUserValidationFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Filters\RegisterUserValidationFilter.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-19 08:16:47.756 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 5732.1621 ms
+2025-08-19 08:18:05.528 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 08:18:05.687 +01:00 [INF] validate login params
+2025-08-19 08:18:09.373 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: If an IAsyncActionFilter provides a result value by setting the Result property of ActionExecutingContext to a non-null value, then it cannot call the next filter by invoking ActionExecutionDelegate.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAwaitedAsync>g__Throw|11_1()
+   at AuthService.WebApi.Filters.LoginValidationFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Filters\LoginValidationFilter.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-19 08:18:09.385 +01:00 [ERR] HTTP POST /api/Auth/login responded 500 in 3866.6858 ms
+2025-08-19 08:19:57.226 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 08:19:57.257 +01:00 [INF] validate login params
+2025-08-19 08:20:14.814 +01:00 [INF] login request initiated
+2025-08-19 08:20:17.265 +01:00 [INF] login request AuthService.Application.DTOs.Requests.LoginRequestDto
+2025-08-19 08:20:17.286 +01:00 [INF] getting of single data query initiated _ => (_.Email == value(AuthService.Application.Services.AuthServices+<>c__DisplayClass4_0).userRequest.Email)
+2025-08-19 08:20:18.345 +01:00 [INF] getting of single data query response AuthService.Domain.Entities.User
+2025-08-19 08:20:18.897 +01:00 [INF] login response AuthService.Application.DTOs.Responses.Response`1[AuthService.Application.DTOs.Responses.UserResponseDto]
+2025-08-19 08:20:18.915 +01:00 [INF] HTTP POST /api/Auth/login responded 200 in 21689.1922 ms
+2025-08-19 08:20:30.049 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 08:20:30.066 +01:00 [INF] validate login params
+2025-08-19 08:22:34.657 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: If an IAsyncActionFilter provides a result value by setting the Result property of ActionExecutingContext to a non-null value, then it cannot call the next filter by invoking ActionExecutionDelegate.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAwaitedAsync>g__Throw|11_1()
+   at AuthService.WebApi.Filters.LoginValidationFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Filters\LoginValidationFilter.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-19 08:22:34.698 +01:00 [ERR] HTTP POST /api/Auth/login responded 500 in 124649.6619 ms
+2025-08-19 08:22:38.579 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 08:22:41.299 +01:00 [INF] validate login params
+2025-08-19 08:23:15.441 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 08:23:20.215 +01:00 [INF] HTTP GET / responded 404 in 4774.7908 ms
+2025-08-19 08:23:27.443 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 29.7025 ms
+2025-08-19 08:23:39.288 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 08:23:54.671 +01:00 [INF] validate login params
+2025-08-19 08:25:09.690 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 08:25:33.730 +01:00 [INF] HTTP GET / responded 404 in 24015.0744 ms
+2025-08-19 08:25:38.497 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 14.1774 ms
+2025-08-19 08:25:52.096 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 08:26:11.530 +01:00 [INF] validate login params
+2025-08-19 08:26:21.938 +01:00 [INF] HTTP POST /api/Auth/login responded 400 in 29849.1713 ms
+2025-08-19 08:27:06.666 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-19 08:27:14.256 +01:00 [INF] validate register params
+2025-08-19 08:27:14.940 +01:00 [INF] HTTP POST /api/Auth/register responded 400 in 8275.8849 ms
+2025-08-19 08:37:39.369 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 41.9047 ms
+2025-08-19 08:37:39.417 +01:00 [INF] ErrorHandlerMiddleWare invoked

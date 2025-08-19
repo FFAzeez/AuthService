@@ -1,0 +1,393 @@
+2025-08-18 20:44:36.278 +01:00 [INF] HTTP GET / responded 307 in 9.5036 ms
+2025-08-18 20:44:36.457 +01:00 [INF] HTTP GET / responded 404 in 3.9243 ms
+2025-08-18 20:44:43.236 +01:00 [INF] HTTP GET / responded 404 in 0.9882 ms
+2025-08-18 20:44:44.220 +01:00 [INF] HTTP GET / responded 404 in 0.6963 ms
+2025-08-18 20:45:10.909 +01:00 [INF] HTTP GET / responded 404 in 9.5693 ms
+2025-08-18 20:45:19.569 +01:00 [INF] HTTP GET /swagger responded 301 in 1.4915 ms
+2025-08-18 20:45:19.676 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 90.4169 ms
+2025-08-18 20:45:19.700 +01:00 [INF] HTTP GET /swagger/index.js responded 200 in 2.7343 ms
+2025-08-18 20:45:19.735 +01:00 [INF] HTTP GET /swagger/index.css responded 200 in 39.8581 ms
+2025-08-18 20:45:19.772 +01:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 74.6168 ms
+2025-08-18 20:45:19.772 +01:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 77.9742 ms
+2025-08-18 20:45:19.796 +01:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 97.7764 ms
+2025-08-18 20:45:20.060 +01:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.3986 ms
+2025-08-18 20:45:20.081 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 21.3858 ms
+2025-08-18 20:47:05.612 +01:00 [INF] HTTP GET / responded 404 in 7.7708 ms
+2025-08-18 20:47:23.718 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 18.7287 ms
+2025-08-18 20:49:11.867 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: No service for type 'AuthService.WebApi.Filters.RegisterUserValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-18 20:49:11.914 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 137.8149 ms
+2025-08-18 20:49:26.841 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: No service for type 'AuthService.WebApi.Filters.RegisterUserValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-18 20:49:26.845 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 26.6316 ms
+2025-08-18 20:49:28.003 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: No service for type 'AuthService.WebApi.Filters.RegisterUserValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-18 20:49:28.006 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 19.4205 ms
+2025-08-18 20:49:45.004 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: No service for type 'AuthService.WebApi.Filters.RegisterUserValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-18 20:49:45.008 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 22.9617 ms
+2025-08-18 20:49:46.122 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: No service for type 'AuthService.WebApi.Filters.RegisterUserValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-18 20:49:46.126 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 20.2370 ms
+2025-08-18 20:49:46.977 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: No service for type 'AuthService.WebApi.Filters.RegisterUserValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-18 20:49:46.981 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 21.7113 ms
+2025-08-18 20:49:47.748 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: No service for type 'AuthService.WebApi.Filters.RegisterUserValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-18 20:49:47.753 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 22.6777 ms
+2025-08-18 20:49:48.809 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: No service for type 'AuthService.WebApi.Filters.RegisterUserValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-18 20:49:48.815 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 38.1318 ms
+2025-08-18 20:49:49.017 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: No service for type 'AuthService.WebApi.Filters.RegisterUserValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-18 20:49:49.024 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 27.0235 ms
+2025-08-18 20:49:49.933 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: No service for type 'AuthService.WebApi.Filters.RegisterUserValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-18 20:49:49.937 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 34.6270 ms
+2025-08-18 20:50:13.150 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: No service for type 'AuthService.WebApi.Filters.RegisterUserValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-18 20:50:13.156 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 23.1493 ms
+2025-08-18 20:50:14.159 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: No service for type 'AuthService.WebApi.Filters.RegisterUserValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-18 20:50:14.162 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 22.1647 ms
+2025-08-18 20:50:14.921 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: No service for type 'AuthService.WebApi.Filters.RegisterUserValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-18 20:50:14.926 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 28.5301 ms
+2025-08-18 20:50:15.135 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: No service for type 'AuthService.WebApi.Filters.RegisterUserValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-18 20:50:15.139 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 21.3733 ms
+2025-08-18 20:50:16.220 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: No service for type 'AuthService.WebApi.Filters.RegisterUserValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-18 20:50:16.224 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 24.1858 ms
+2025-08-18 20:52:23.149 +01:00 [INF] HTTP GET / responded 404 in 6953.2425 ms
+2025-08-18 20:52:30.365 +01:00 [INF] HTTP GET /swagger responded 301 in 1.2965 ms
+2025-08-18 20:52:30.459 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 78.2377 ms
+2025-08-18 20:52:30.496 +01:00 [INF] HTTP GET /swagger/index.js responded 200 in 7.3436 ms
+2025-08-18 20:52:30.503 +01:00 [INF] HTTP GET /swagger/index.css responded 200 in 14.0639 ms
+2025-08-18 20:52:30.538 +01:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 56.5144 ms
+2025-08-18 20:52:30.538 +01:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 48.5800 ms
+2025-08-18 20:52:30.548 +01:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 58.2697 ms
+2025-08-18 20:52:30.853 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 15.1555 ms
+2025-08-18 20:52:30.859 +01:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.4249 ms
+2025-08-18 20:57:11.776 +01:00 [ERR] Unhandled exception
+System.InvalidOperationException: No service for type 'AuthService.WebApi.Filters.RegisterUserValidationFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-18 20:57:11.868 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 262261.5784 ms
+2025-08-18 20:57:56.192 +01:00 [INF] HTTP GET / responded 404 in 2603.1727 ms
+2025-08-18 20:58:02.373 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 21.2411 ms
+2025-08-18 20:59:53.618 +01:00 [ERR] Unhandled exception
+System.MissingMethodException: Method not found: 'Void AutoMapper.MapperConfiguration..ctor(AutoMapper.MapperConfigurationExpression)'.
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__12_2(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__12_3(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at AuthService.WebApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\USER\Desktop\AuthService\AuthService.WebApi\Middleware\ErrorHandlerMiddleware.cs:line 20
+2025-08-18 20:59:53.685 +01:00 [ERR] HTTP POST /api/Auth/register responded 500 in 74540.8660 ms
+2025-08-18 21:03:58.641 +01:00 [INF] HTTP GET / responded 404 in 2673.1175 ms
+2025-08-18 21:04:04.306 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 18.2650 ms
+2025-08-18 21:25:11.675 +01:00 [INF] HTTP GET / responded 404 in 30153.6157 ms
+2025-08-18 21:25:18.309 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 18.1635 ms
+2025-08-18 21:26:41.444 +01:00 [ERR] An error occurred using the connection to database 'AuthService' on server 'localhost'.
+2025-08-18 21:26:41.462 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'AuthService.Infrastructure.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'SA'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:6e83576d-7e10-4974-822e-6161c0377e42
+Error Number:18456,State:1,Class:14
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'SA'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:6e83576d-7e10-4974-822e-6161c0377e42
+Error Number:18456,State:1,Class:14
+2025-08-18 22:39:35.121 +01:00 [INF] HTTP GET / responded 404 in 3212.8973 ms
+2025-08-18 22:45:35.447 +01:00 [INF] HTTP GET / responded 404 in 3473.8069 ms
+2025-08-18 22:46:39.225 +01:00 [INF] HTTP GET / responded 404 in 4509.3869 ms
+2025-08-18 22:46:45.345 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 22.8871 ms
+2025-08-18 23:01:34.788 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-18 23:01:37.649 +01:00 [INF] HTTP GET / responded 404 in 2866.2098 ms
+2025-08-18 23:01:41.276 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 19.7355 ms
+2025-08-18 23:02:02.362 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-18 23:02:19.885 +01:00 [INF] Registration request AuthService.Application.DTOs.Requests.RegisterDto
+2025-08-18 23:02:46.907 +01:00 [INF] getting of single data query initiated _ => _.Email.Equals(value(AuthService.Application.Services.AuthServices+<>c__DisplayClass3_0).register.Email)
+2025-08-18 23:02:58.259 +01:00 [INF] getting of single data query response 
+2025-08-18 23:03:40.194 +01:00 [INF] registration response AuthService.Application.DTOs.Responses.Response`1[System.String]
+2025-08-18 23:03:43.188 +01:00 [INF] HTTP POST /api/Auth/register responded 200 in 100830.2200 ms
+2025-08-18 23:06:19.128 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-18 23:08:03.199 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-18 23:08:05.807 +01:00 [INF] HTTP GET / responded 404 in 2615.7465 ms
+2025-08-18 23:08:19.638 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 16.4401 ms
+2025-08-18 23:09:08.158 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-18 23:10:18.098 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-18 23:11:02.152 +01:00 [INF] HTTP GET / responded 404 in 44042.9767 ms
+2025-08-18 23:11:02.365 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 17.1694 ms
+2025-08-18 23:11:31.353 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-18 23:11:54.915 +01:00 [INF] login request initiated
+2025-08-18 23:11:54.918 +01:00 [INF] login request AuthService.Application.DTOs.Requests.LoginRequestDto
+2025-08-18 23:11:54.930 +01:00 [INF] getting of single data query initiated _ => (_.Email == value(AuthService.Application.Services.AuthServices+<>c__DisplayClass4_0).userRequest.Email)
+2025-08-18 23:11:55.832 +01:00 [INF] getting of single data query response AuthService.Domain.Entities.User
+2025-08-18 23:11:55.874 +01:00 [INF] login error Invalid salt revision
+2025-08-18 23:11:58.692 +01:00 [INF] HTTP POST /api/Auth/login responded 400 in 27341.6559 ms
+2025-08-18 23:12:05.233 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-18 23:12:35.081 +01:00 [INF] login request initiated
+2025-08-18 23:12:35.082 +01:00 [INF] login request AuthService.Application.DTOs.Requests.LoginRequestDto
+2025-08-18 23:12:35.084 +01:00 [INF] getting of single data query initiated _ => (_.Email == value(AuthService.Application.Services.AuthServices+<>c__DisplayClass4_0).userRequest.Email)
+2025-08-18 23:13:23.124 +01:00 [INF] getting of single data query response AuthService.Domain.Entities.User
+2025-08-18 23:14:58.896 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-18 23:16:20.352 +01:00 [INF] HTTP GET / responded 404 in 81450.6100 ms
+2025-08-18 23:16:25.184 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.9747 ms
+2025-08-18 23:16:50.514 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-18 23:17:05.898 +01:00 [INF] login request initiated
+2025-08-18 23:17:05.900 +01:00 [INF] login request AuthService.Application.DTOs.Requests.LoginRequestDto
+2025-08-18 23:17:05.909 +01:00 [INF] getting of single data query initiated _ => (_.Email == value(AuthService.Application.Services.AuthServices+<>c__DisplayClass4_0).userRequest.Email)
+2025-08-18 23:17:08.746 +01:00 [INF] getting of single data query response AuthService.Domain.Entities.User
+2025-08-18 23:17:09.141 +01:00 [INF] Login error Invalid credentials
+2025-08-18 23:17:11.662 +01:00 [INF] HTTP POST /api/Auth/login responded 400 in 21151.3317 ms
+2025-08-18 23:18:50.516 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-18 23:18:58.794 +01:00 [INF] login request initiated
+2025-08-18 23:18:59.246 +01:00 [INF] login request AuthService.Application.DTOs.Requests.LoginRequestDto
+2025-08-18 23:19:03.224 +01:00 [INF] getting of single data query initiated _ => (_.Email == value(AuthService.Application.Services.AuthServices+<>c__DisplayClass4_0).userRequest.Email)
+2025-08-18 23:19:05.407 +01:00 [INF] getting of single data query response AuthService.Domain.Entities.User
+2025-08-18 23:21:11.591 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-18 23:23:02.995 +01:00 [INF] HTTP GET / responded 404 in 111394.4440 ms
+2025-08-18 23:23:08.884 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.1440 ms
+2025-08-18 23:24:13.205 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-18 23:24:24.184 +01:00 [INF] login request initiated
+2025-08-18 23:24:24.777 +01:00 [INF] login request AuthService.Application.DTOs.Requests.LoginRequestDto
+2025-08-18 23:24:44.420 +01:00 [INF] getting of single data query initiated _ => (_.Email == value(AuthService.Application.Services.AuthServices+<>c__DisplayClass4_0).userRequest.Email)
+2025-08-18 23:24:46.398 +01:00 [INF] getting of single data query response AuthService.Domain.Entities.User
+2025-08-18 23:29:51.478 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-18 23:29:53.968 +01:00 [INF] HTTP GET / responded 404 in 2493.4978 ms
+2025-08-18 23:30:00.217 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 17.3773 ms
+2025-08-18 23:32:45.871 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-18 23:32:57.638 +01:00 [INF] login request initiated
+2025-08-18 23:32:58.264 +01:00 [INF] login request AuthService.Application.DTOs.Requests.LoginRequestDto
+2025-08-18 23:32:59.493 +01:00 [INF] getting of single data query initiated _ => (_.Email == value(AuthService.Application.Services.AuthServices+<>c__DisplayClass4_0).userRequest.Email)
+2025-08-18 23:33:03.796 +01:00 [INF] getting of single data query response AuthService.Domain.Entities.User
+2025-08-18 23:33:50.137 +01:00 [INF] Login error Invalid credentials
+2025-08-18 23:33:50.158 +01:00 [INF] HTTP POST /api/Auth/login responded 400 in 64292.0395 ms
+2025-08-18 23:34:28.637 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-18 23:34:54.541 +01:00 [INF] HTTP GET / responded 404 in 25901.6547 ms
+2025-08-18 23:35:01.585 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 24.1907 ms
+2025-08-18 23:35:31.164 +01:00 [INF] ErrorHandlerMiddleWare invoked
+2025-08-18 23:35:45.062 +01:00 [INF] login request initiated
+2025-08-18 23:35:45.679 +01:00 [INF] login request AuthService.Application.DTOs.Requests.LoginRequestDto
+2025-08-18 23:35:48.235 +01:00 [INF] getting of single data query initiated _ => (_.Email == value(AuthService.Application.Services.AuthServices+<>c__DisplayClass4_0).userRequest.Email)
+2025-08-18 23:35:49.893 +01:00 [INF] getting of single data query response AuthService.Domain.Entities.User
